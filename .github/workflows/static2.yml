@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <body>
+    <h1 align="center">Activity 10</h1>
+    <h1>Activity 2: List Attributes</h1>
+    <a href="Ramos_html.html"
+      target="preview-frame2">Open
+    </a>
+    <iframe name="preview-frame2"
+    width="300px"
+    height="350px">
+    </iframe>
+    <br>
+    <h1>Activity 3: Webpage Layout Design</h1>
+    <a href="Ramos_HTML_Activity_3_CPNT.html" target="preview-frame3">Open</a>
+    <iframe name="preview-frame3"
+    width="300"
+    height="300">
+    </iframe>
+    <br>
+    <h1>Activity 4</h1>
+    <a href="index (1).html" target="preview-frame4">Open</a>
+    <iframe name="preview-frame4"
+    width="300"
+    height="300">
+    </iframe>
+    <br>
+    <h1>Activity 5</h1>
+    <a href="index_sched.html"
+      target="preview-frame5">Open
+    </a>
+    <iframe name="preview-frame5"
+    width="300"
+    height="300">
+    </iframe>
+    <br>
+    <h1>Activity 6</h1>
+    <a href="Ramos_Act6.html"
+      target="preview-frame6">Open
+    </a>
+    <iframe name="preview-frame6"
+    width="300"
+    height="300"></iframe>
+    <br>
+    <h1>Activity 7</h1>
+    <a href="Ramos_Act7_11.html"
+      target="preview-frame7">Open
+    </a>
+    <iframe name="preview-frame7"
+    width="300"
+    height="300"></iframe>
+    <br>
+    <h1>Activity 8</h1>
+    <a href="PersonalDataSheet.html" target="preview-frame8">Open</a>
+    <iframe name="preview-frame8"
+    width="300"
+    height="300"></iframe>
+    <br>
+    <h1>Activity 9</h1>
+    <a href="Student_Information_Form.html" target="preview-frame9">Open</a>
+    <iframe name="preview-frame9"
+    width="300"
+    height="300"></iframe>
+    <br>
+    <h1>Activity 10</h1>
+    < a href="mainact10.html" target="preview-frame10">Open</a>
+    <iframe name="preview-frame10"
+    width="300"
+    height="300"></iframe>
+</body>
+</html>
+    <br>
+  </body>
+</body>
+</html>
