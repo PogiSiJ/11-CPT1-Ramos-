@@ -1,88 +1,105 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <title>Coding Workshop Webpage</title>
+  </head>
+  <body>
+  <h1 align="center">Coding Workshop</h1>
   
-<header style="background-color: #1a365d; border: 3px solid black; color: white; padding: 40px; text-align: center;">
-    <h1>My Favorite Things in Life</h1>
-  </header>
+  <nav>
+ <a href="#About">About</a>
+ <a href="#Join">Join Us</a>
+ <a href="#Schedules">Weekly Schedules</a>
+ <a href="#Submit">Submission Form</a>
+ <a href="#Where to find">Where to meet us</a>
 
-<p style="font-size: 17px;" align="center">A webpage dedicated to my favourite things in life specifically my favourite image, song and video.</p>
+<h2 id="About">About</h2>
+<p>A coding workshop dedicated to your programming
+needs. We offer various types of coding languages such as HTML/Python/Java/JavaScript/PhP.</p>
 
-<p style="font-size: 24px;" align="left"><b><i> My favourite image</i></b></p>
+<h2 align="center">Provided Programs</h2>
+<ul>
+ <li>Programming Lessons</li>
+ <li>Programming Activities</li>
+ <li>Debugging</li>
+</ul>
 
-<img src="multimedia/images/IMG_20260326_172942_316.jpg" alt="sunset" width="400" style="float: left; margin-right: 20px; border:2px solid black; padding: 10px;" line-height: 2.8px;">
+<h2 id="Join Us" align="center">How to Join</h2>
 
-<p style="font-size: 22px;" align="center line-height: 1.6;"> The reason why this is my favourite image is because of it's visuals. It's pleasing to the eye since the shade of the sun perfectly compliments on how dark the surrounding environment is.</p>
+<ol>
+ <li>Answer the Registration form below</li>
+ <li>Wait for our reply back to your email.</li>
+ <li>Finish</li>
+</ol>
 
-<p style="clear: both;" "margin-left: 24px;" align="right" "font-size: 22px;"><b>My Favourite Song</b></i></p>
+<h2 id="Schedules" align="center">Weekly Schedule</h2>
 
-<audio controls width="400" style="float: right; margin-left: 20px;" "line-height: 1.4;">
-  <source src="multimedia/audio/The_Long_Faces_-_Jane_(mp3.pm) (1).mp3" style="float: left; margin-right: 20px; border: 2px solid black; type="audio/mpeg">
-</audio>
+<table border="1">
+  <tr>
+    <th>Day</th>
+    <th>Time</th>
+    <th>Activity</th>
+  </tr>
+  
+  <tr>
+    <td>Monday</td>
+    <td>4:00pm - 5:00pm</td>
+    <td>Programming Lessons</td>
+  </tr
+  
+  <tr>
+    <td>Tuesday</td>
+    <td>4:00pm - 5:00pm</td>
+    <td rowspan="2">Programming Activities<br>Debugging</td>
+  </tr>
+  
+  <tr>
+    <td>Wednesday</td>
+    <td>4:00pm - 5:00pm</td>
+  </tr>
+  </table>
+  
+  <h2 id="Where to find">Where to find Us</h2>
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30891.
+349188029337!2d120.99911679383227!
+3d14.575204596217684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca277115fe3d%3A0x3e7364c76b93c9ab!2sEmilio%20Aguinaldo%20College!5e0!3m2!1sen!2sph!4v1787890537557!5m2!1sen!2sph"
+width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe><br>
 
-<p style="font-size: 18px;" align="center">Jane! by The Long Faces is my favourite song is because it always if not often puts me in a good mood whenever i play it with my earpods.</p>
+<h2 id="Submit" align="center">Submission Form</h2>
 
-<h3 style="font-size: 24px;" align="center"><i>Lyrics</i></h3>
+<form action="save.html" method="GET"></form>
 
-<p style= line-height: 1.4;"><i> Won't the devil guide your hand, for good luck
-To hold the honeysuckle rose, as she lies down
-Reading the paper, reading the world right 'round
-And her eyes record the sweet surprise of those
-Who died that day
-Leaving her breathless, leading her hand to the grave</i></p>
+<label for="fname">Full Name</label><input type="text" id="fname" mame="fname"><br>
 
-<p style="line-height: 1.4;"><i>And Jane
-You're early
-Your life's work is dirtied by the
-Fools
-Who adore you
-Only to find, only to find you out
-They saw you
-Dressing in the backroom
-Now they'll pay what they owe you
-It's only small change, red on the green, green grass</i></p>
+<label for="email">Email Address</label><input type="email" id="email" name="email"><br>
 
-<p style="line-height= 1.4;"><i>Won't the devil take you back for more
-To open closed doors
-And keep the good from the great
-Evil in equal, seeking to kill and create
-How grand? The milk and honey land
-Is on her tongue again
-Taste of the violence, trying to silence her head</i></p>
+<label for="grade">Grade Level</label>
+<select id="grade" name="grade">
+  <option value="7">Grade 7</option>
+  <option value="8">Grade 8</option>
+  <option value="9">Grade 9</option>
+  <option value="10">Grade 10</option>
+  <option value="11">Grade 11</option>
+  <option value="12">Grade 12</option>
+</select><br>
 
-<p style="line-height: 1.4;"><i>And Jane
-You're early
-Your life's work is dirtied by the
-Fools
-Who adore you
-Biding your time, biding your time to strike
-Surely
-The poison makes a portrait of your
-Face
-In the mirror
-Smiling with fright</i></p>
+<label>Interest</label>
+<input type="radio" name="interest"
+value="coding">
+<label>Coding</label>
+<input type="radio" name="interest"
+value="debugging">
+<label>Debugging</label>
+<input type="radio" name="interest"
+value="html">
+<label>HTML</label><br>
 
-<p style="line-height= 1.4;"><i> And Jane
-You're early
-Your life's work is dirtied by the
-Fools
-Who adore you
-Only to find, only to find you out
-They saw you
-Dressing in the backroom
-Now they'll pay what they owe you
-It's only small change, red on the green, green grass</i></p>
+<label for="message">Message</label>
+<textarea id="message" name="message"></textarea><br>
 
-<h3 style="font-size: 24px;" align="center; text-align: left;"><b><i>My Favourite Video</i></b></h3>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
 
-<video width="300" height="400" style="float: left; margin-right: 20px; border: 2px solid black; padding: 3px;" controls>
-  <source src="multimedia/videos/VID_20250912_063527.mp4" type="video/mp4">
-</video>
-
-<p style="font-size: 24px;" align="right" line-height: 1.6;"> I chose this video because it takes me back to my last fieldtrip in JRCA that i really enjoyed and had memories with. It also captures one of the best views in the sky that i have ever seen beside on what i picture in photography. </p>
-
-
-</body>
+  </body>
 </html>
